@@ -22,7 +22,7 @@
     </CodeLine>
     <CodeLine v-for="url in data.urls" :key="url">
       <Tab/><Tab/><Tab/>
-      <Url :value="url"></Url>
+      <Url :value="url" :url="url"></Url>
       <span class="expression">,</span>
     </CodeLine>
     <CodeLine>

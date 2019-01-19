@@ -20,6 +20,9 @@
     },
     computed: {
       display() {
+        if (this.url.length == 0) {
+          this.url = this.value;
+        }
         if (this.value.length > 70) {
           return this.value.replace('http://', '').replace('https://', '');
         }

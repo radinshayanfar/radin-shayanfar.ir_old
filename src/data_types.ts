@@ -3,7 +3,7 @@ export enum Section {
   Skills,
   // CurriculumVitae,
   // Experiments,
-  // Projects,
+  Projects,
   // Talks,
   // Packages,
   // Misc,

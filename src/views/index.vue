@@ -13,6 +13,12 @@
       />
     </template>
     <CodeLine/>
+    <ShowCaseSection
+      :section="Section.Projects"
+      name="projects"
+      :data="data.projects"
+    />
+    <CodeLine/>
     <CodeLine/>
     <Legal/>
   </div>
