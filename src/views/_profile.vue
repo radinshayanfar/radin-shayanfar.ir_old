@@ -30,6 +30,9 @@
     <Variable v-for="(url, name) in data.socialNetworks" :key="name" :name="name">
       <Url :value="url" :url="url"></Url>
     </Variable>
+    <Variable name="cv">
+      <Url :value="data.cv" :url="'https://radin-shayanfar.ir/cv.pdf'"></Url>
+    </Variable>
     <CodeLine/>
     <CodeLine/>
 

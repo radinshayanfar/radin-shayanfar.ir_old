@@ -26,7 +26,7 @@ export const graduatedFrom = 'Helli 3 High School';
 export const city = 'Tehran';
 export const country = 'Iran';
 export const emails: string[] = [
-  'r@rshayanfar.ir',
+  'me@rshayanfar.ir',
   'radin.shayanfar@aut.ac.ir',
   'radin.shayanfar@gmail.com',
 ];
@@ -35,6 +35,7 @@ export const socialNetworks: { [key: string]: string } = {
   twitter: 'https://twitter.com/radinshayanfar',
   instagram: 'https://instagram.com/radinshayanfar',
 };
+export const cv = 'My latest CV';
 
 
 /*********
