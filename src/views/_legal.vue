@@ -8,7 +8,7 @@
     </Comment>
     <CommentBlock
       v-else
-      :comment="`(c) ${year}\n\nRadin Shayanfar\nTehran, Iran\n\nr@rshayanfar.ir`"
+      :comment="`(c) ${year}\n\nRadin Shayanfar\nTehran, Iran\n\nme@rshayanfar.ir`"
     />
   </div>
 </template>

@@ -43,7 +43,7 @@ export const socialNetworks: { [key: string]: string } = {
 
 // Web
 // Web / Backend
-export const php: Skill = { level: 0.7, name: 'PHP' };
+export const php: Skill = { level: 0.8, name: 'PHP' };
 export const mysql: Skill = { level: 0.4, name: 'MySQL' };
 
 // Web / Frontend
@@ -54,6 +54,9 @@ export const javascript: Skill = { level: 0.2, name: 'JavaScript' };
 // iOS
 export const swift: Skill = { level: 0.5, name: 'Swift' };
 export const objectivec: Skill = { level: 0.2, name: 'Objective-C' };
+
+// Java
+export const java: Skill = { level: 0.8, name: 'Java' };
 
 // C++
 export const c: Skill = { level: 0.9, name: 'C' };
@@ -80,6 +83,10 @@ export const skills: SkillSet[] = [
     ],
   },
   {
+    title: 'Java',
+    data: { java },
+  },
+  {
     title: 'C++',
     data: { c, cpp },
   },
@@ -103,9 +110,39 @@ export const skills: SkillSet[] = [
 
 export const projects: ShowCase[] = [
   {
+    name: 'Jpotify',
+    description: `
+      A graphical music player.
+      Has features like playlists and sharing music with friends over network.
+    `,
+    startsAt: new Date('2019'),
+    endsAt: new Date('2019'),
+    urls: [],
+    media: [],
+    skills: {
+      java,
+    },
+  },
+  {
+    name: 'RJBot',
+    description: `
+      A Telegram bot for downloading media from RadioJavan.com website.
+      Supports almost all of Radio Javan media types such as musics, videos, albums and... .
+    `,
+    startsAt: new Date('2019'),
+    endsAt: new Date('2019'),
+    urls: [
+      'http://telegram.me/RJDownload_Bot',
+    ],
+    media: [],
+    skills: {
+      php,
+    },
+  },
+  {
     name: 'Konkur98',
     description: `
-      Konkur98.ga is a simple countdown for Konkur exam.
+      Konkur98.ga is a simple countdown website for Iranian university entrance exam.
     `,
     startsAt: new Date('2017'),
     endsAt: new Date('2019'),
